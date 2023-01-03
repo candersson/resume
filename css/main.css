@@ -1631,8 +1631,8 @@ input::-moz-focus-inner {
 }
 
 .header-logo img {
-  width: 132px;
-  height: 36px;
+  width: 130px;
+  height: 49px;
   margin: 0;
 }
 
@@ -2201,6 +2201,29 @@ input::-moz-focus-inner {
 
 .about-me__buttons .column:last-child {
   padding-left: 32px;
+}
+
+
+/* ===================================================================
+ * # experience
+ *
+ * ------------------------------------------------------------------- */
+ .s-experience {
+  padding-top: 19.2rem;
+  padding-bottom: 16.8rem;
+  background-color: #ffffff;
+}
+
+.s-experience .row {
+  max-width: 1140px;
+}
+
+.s-experience > [class*="experience-"] {
+  margin-bottom: 15.2rem;
+}
+
+.s-experience > [class*="experience-"]:last-child {
+  margin-bottom: 0;
 }
 
 /* -------------------------------------------------------------------
@@ -3530,7 +3553,7 @@ footer a:visited {
 }
 
 .ss-go-top::after {
-  content: "back to top";
+  content: "Scrolla upp";
   display: block;
   float: left;
   width: 120px;
